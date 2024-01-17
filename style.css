@@ -1,0 +1,116 @@
+:root {
+  /* ### Primary */
+  --Dark-cyan: hsl(185, 75%, 39%);
+  --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --Dark-grayish-blue: hsl(227, 10%, 46%);
+
+  /* ### Neutral */
+
+  --Dark-gray: hsl(0, 0%, 59%);
+  --white: #fff;
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: var(--Dark-cyan);
+  line-height: 1;
+}
+.container__center {
+  min-height: 100vh;
+  background-image: url(./images/bg-pattern-top.svg),
+    url(./images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 52vw bottom 35vh, left 48vw top 52vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+}
+
+.card__content {
+  min-width: 35rem;
+  background-color: var(--white);
+  border-radius: 1.5rem;
+  box-shadow: 0px 30px 60px -12px rgba(50, 50, 93, 0.25),
+    0px 18px 36px -18px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.card__content__header {
+  background-image: url(./images/bg-pattern-card.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 14rem;
+  /* border-top-left-radius: 1.1rem;
+  border-top-right-radius: 1.1rem; */
+  border-radius: 1.5rem 1.5rem 0 0;
+  position: relative;
+}
+.card__img {
+  display: block;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border: 5px solid var(--white);
+  border-radius: 10rem;
+}
+.card__textBox {
+  text-align: center;
+  padding: 7.5rem 0 2.5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.card__heading {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--Very-dark-desaturated-blue);
+}
+
+.card__heading span {
+  color: var(--Dark-grayish-blue);
+  font-weight: 400;
+  margin-left: 0.5rem;
+}
+.country {
+  color: var(--Dark-grayish-blue);
+  font-weight: 400;
+}
+.card__line {
+  border-top: 1px solid var(--Dark-gray);
+  opacity: 0.3;
+}
+
+.card__columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 4rem;
+  margin: 2.5rem auto;
+}
+.larger {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+  color: var(--Very-dark-desaturated-blue);
+}
+.smaller {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: var(--Dark-gray);
+  letter-spacing: 1px;
+}
