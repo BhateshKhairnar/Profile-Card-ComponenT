@@ -108,6 +108,7 @@ body {
   font-weight: 700;
   margin-bottom: 0.8rem;
   color: var(--Very-dark-desaturated-blue);
+  letter-spacing: 1px;
 }
 .smaller {
   font-size: 1.1rem;
