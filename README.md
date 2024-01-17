@@ -3,7 +3,6 @@
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
@@ -11,12 +10,6 @@
 - [Author](#author)
 
 ## Overview
-
-### The challenge
-
-Users should be able to:
-
-- See hover states for interactive elements
 
 ### Screenshot
 
