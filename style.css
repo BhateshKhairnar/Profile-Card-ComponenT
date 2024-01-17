@@ -84,6 +84,7 @@ body {
 
 .card__heading span {
   color: var(--Dark-grayish-blue);
+  font-size: 1.6rem;
   font-weight: 400;
   margin-left: 0.5rem;
 }
