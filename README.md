@@ -20,10 +20,9 @@ Users should be able to:
 
 ### Screenshot
 
-![Uploading F.png…]()
+### Li![F](https://github.com/BhateshKhairnar/Profile-Card-Component/assets/111328681/c65255f7-0714-4903-b061-fcc6b8e37fee)
 
-
-### Links
+##links
 
 - Solution URL: []()
 - Live Site URL: []()
