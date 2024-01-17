@@ -24,8 +24,8 @@ Users should be able to:
 
 ## Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://www.frontendmentor.io/solutions/profile-card-component-_5XIM-Exm6](https://www.frontendmentor.io/solutions/profile-card-component-_5XIM-Exm6)
+- Live Site URL: [https://bhateshkhairnar.github.io/Profile-Card-Component/](https://bhateshkhairnar.github.io/Profile-Card-Component/)
 
 ## My process
 
