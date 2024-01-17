@@ -100,7 +100,7 @@ body {
 .card__columns {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  column-gap: 4rem;
+  column-gap: 5rem;
   margin: 2.5rem auto;
 }
 .larger {
